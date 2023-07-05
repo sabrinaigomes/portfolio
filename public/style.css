@@ -10,6 +10,7 @@
 body{
     background-color: #101D3D;
     text-align: center;
+    display: flex;
 }
 
 .apresentacao{
@@ -116,4 +117,26 @@ footer img{
         text-align: left;
         font-size: 14px;
     }
+}
+
+.inicio{
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    transition: .5s;
+}
+
+.conteudo_sobremim{
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    left: 100vw;
+    transition: .5s;
+}
+
+.sobremim{
+    border-left: 1px solid white;
+    padding: 60px;
 }
